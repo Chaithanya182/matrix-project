@@ -1,0 +1,29 @@
+.matrix {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 700px;
+  background: rgba(40, 40, 60, 0.9);
+  border-radius: 15px;
+  padding: 20px;
+  box-shadow: 0 0 20px rgba(255, 105, 0, 0.3);
+}
+
+.bg-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px;
+  background: linear-gradient(45deg, #333333, #262626);
+  min-height: 100vh;
+}
+
+.matrix-title {
+  font-size: 2.5rem;
+  color: #ff6600;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  text-shadow: 0 0 10px #ff6600;
+  margin-bottom: 30px;
+}
